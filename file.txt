@@ -1,0 +1,29 @@
+#include "mylib"
+
+using namespace std;
+
+// Its code will be recognised as c++ code
+
+class myclass {
+    
+    public:
+    
+        int id;
+    
+};
+
+void f () {
+    
+    int age[100];
+    
+    for (int i = 0 ; i < 100 ; i++)
+        age[i] = rand ();
+    
+    for (int i = 0 ; i < 100 ; i++)
+        if ( age >= 18 )
+            cout << "allowed user";
+        else
+            cout << "the user not allowed from law";
+    
+}
+
